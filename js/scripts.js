@@ -57,7 +57,7 @@ btn.addEventListener("click", onoff);
 
 const listElems = document.getElementById("my-list").children;
 
-console.log(listElems);
+//console.log(listElems);
 
 listElems[1].addEventListener("click", () => alert(`wawavyva`));
 listElems[1].textContent = "wawavyva";
