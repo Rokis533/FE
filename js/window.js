@@ -11,6 +11,10 @@
 // const answer = window.prompt("Do you want to learn?");
 // console.log(answer);
 
+hello.onclick = () => {
+  console.log("hello");
+};
+
 window.onload = function () {
   //kai viskas užsikrauna
   console.log("Langas užsikrove");
